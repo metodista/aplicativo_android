@@ -1,0 +1,432 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" > 
+
+  <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="994dp"
+       tools:context=".Main1Activity" >
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:background="@drawable/botao_power_dvd" />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:background="@drawable/botao_mute_dvd" />
+
+      <Button
+          android:id="@+id/button3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/button1"
+          android:layout_below="@+id/button1"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/botao_function_dvd" />
+
+      <Button
+          android:id="@+id/button4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button3"
+          android:layout_marginLeft="17dp"
+          android:layout_toRightOf="@+id/button3"
+          android:background="@drawable/botao_input_dvd" />
+
+      <Button
+          android:id="@+id/button6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button5"
+          android:layout_alignParentRight="true"
+          android:background="@drawable/botao_return_dvd" />
+
+      <Button
+          android:id="@+id/button5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button4"
+          android:layout_alignBottom="@+id/button4"
+          android:layout_marginRight="16dp"
+          android:layout_toLeftOf="@+id/button6"
+          android:background="@drawable/botao_sleep_dvd" />
+
+      <Button
+          android:id="@+id/button10"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button6"
+          android:background="@drawable/botao_eq_dvd" />
+
+      <Button
+          android:id="@+id/button9"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button10"
+          android:layout_alignBottom="@+id/button10"
+          android:layout_alignLeft="@+id/button5"
+          android:background="@drawable/botao_tres_dvd" />
+
+      <Button
+          android:id="@+id/button8"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button9"
+          android:layout_alignBottom="@+id/button9"
+          android:layout_alignLeft="@+id/button4"
+          android:background="@drawable/botao_dois_dvd" />
+
+      <Button
+          android:id="@+id/button7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button8"
+          android:layout_alignBottom="@+id/button8"
+          android:layout_alignParentLeft="true"
+          android:background="@drawable/botao_um_dvd" />
+
+      <Button
+          android:id="@+id/button11"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button10"
+          android:background="@drawable/botao_vsm_dvd" />
+
+      <Button
+          android:id="@+id/button12"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button11"
+          android:layout_alignParentLeft="true"
+          android:background="@drawable/botao_quatro_dvd" />
+
+      <Button
+          android:id="@+id/button13"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button12"
+          android:layout_alignRight="@+id/button8"
+          android:background="@drawable/botao_cinco_dvd" />
+
+      <Button
+          android:id="@+id/button14"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button11"
+          android:layout_alignRight="@+id/button9"
+          android:background="@drawable/botao_seis_dvd" />
+
+      <Button
+          android:id="@+id/button18"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button11"
+          android:background="@drawable/botao_zero_dvd" />
+
+      <Button
+          android:id="@+id/button17"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button18"
+          android:layout_alignBottom="@+id/button18"
+          android:layout_alignLeft="@+id/button14"
+          android:background="@drawable/botao_nove_dvd" />
+
+      <Button
+          android:id="@+id/button16"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button17"
+          android:layout_alignBottom="@+id/button17"
+          android:layout_alignLeft="@+id/button13"
+          android:background="@drawable/botao_oito_dvd" />
+
+      <Button
+          android:id="@+id/button15"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button16"
+          android:layout_alignBottom="@+id/button16"
+          android:layout_alignParentLeft="true"
+          android:background="@drawable/botao_sete_dvd" />
+
+      <Button
+          android:id="@+id/button19"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/textView1"
+          android:background="@drawable/botao_echo_menos_dvd" />
+
+      <Button
+          android:id="@+id/button20"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/textView1"
+          android:layout_toRightOf="@+id/button19"
+          android:background="@drawable/botao_echo_mais_dvd" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/button20"
+          android:layout_below="@+id/button16"
+          android:layout_marginRight="22dp"
+          android:layout_marginTop="26dp"
+          android:text="ECHO VOL."
+          android:textColor="#ffffff" />
+
+      <Button
+          android:id="@+id/button21"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/textView2"
+          android:layout_toLeftOf="@+id/button18"
+          android:background="@drawable/botao_mic_menos_dvd" />
+
+      <Button
+          android:id="@+id/button22"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/textView2"
+          android:layout_toRightOf="@+id/button21"
+          android:background="@drawable/botao_mic_mais_dvd" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/button20"
+          android:layout_alignLeft="@+id/button21"
+          android:layout_marginLeft="32dp"
+          android:text="MIC VOL."
+          android:textColor="#ffffff" />
+
+      <Button
+          android:id="@+id/button24"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/button19"
+          android:background="@drawable/botao_setup_dvd" />
+
+      <Button
+          android:id="@+id/button23"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button24"
+          android:layout_alignBottom="@+id/button24"
+          android:layout_centerHorizontal="true"
+          android:background="@drawable/botao_preset_mais_dvd" />
+
+      <Button
+          android:id="@+id/button25"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button23"
+          android:layout_alignBottom="@+id/button23"
+          android:layout_alignLeft="@+id/button22"
+          android:background="@drawable/botao_display_dvd" />
+
+      <Button
+          android:id="@+id/button27"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/button23"
+          android:layout_below="@+id/button23"
+          android:background="@drawable/botao_enter_dvd" />
+
+      <Button
+          android:id="@+id/button26"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button27"
+          android:layout_alignBottom="@+id/button27"
+          android:layout_toLeftOf="@+id/button16"
+          android:background="@drawable/botao_tun_menos_dvd" />
+
+      <Button
+          android:id="@+id/button28"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/button25"
+          android:layout_toRightOf="@+id/button17"
+          android:background="@drawable/botao_tun_mais_dvd" />
+
+      <Button
+          android:id="@+id/button29"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/button27"
+          android:layout_below="@+id/button27"
+          android:background="@drawable/botao_preset_menos_dvd" />
+
+      <Button
+          android:id="@+id/button30"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button29"
+          android:layout_alignBottom="@+id/button29"
+          android:layout_alignParentLeft="true"
+          android:background="@drawable/botao_menu_dvd" />
+
+      <Button
+          android:id="@+id/button31"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button28"
+          android:background="@drawable/botao_title_dvd" />
+
+      <Button
+          android:id="@+id/button33"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignTop="@+id/button32"
+          android:layout_toRightOf="@+id/button32"
+          android:background="@drawable/botao_scan_mais_dvd" />
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/textView1"
+          android:layout_below="@+id/button29"
+          android:layout_marginTop="26dp"
+          android:text="-  SCAN  +"
+          android:textColor="#ffffff" />
+
+      <Button
+          android:id="@+id/button32"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/textView3"
+          android:layout_toLeftOf="@+id/button4"
+          android:background="@drawable/botao_scan_menos_dvd" />
+
+      <Button
+          android:id="@+id/button34"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button33"
+          android:layout_toRightOf="@+id/button33"
+          android:background="@drawable/botao_play_dvd" />
+
+      <Button
+          android:id="@+id/button35"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/textView4"
+          android:background="@drawable/botao_skip_menos_dvd" />
+
+      <Button
+          android:id="@+id/button36"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button35"
+          android:layout_alignBottom="@+id/button35"
+          android:layout_alignLeft="@+id/button33"
+          android:background="@drawable/botao_skip_mais_dvd" />
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/textView3"
+          android:layout_below="@+id/button33"
+          android:layout_marginTop="16dp"
+          android:text="-  SKIP  +"
+          android:textColor="#ffffff" />
+
+      <Button
+          android:id="@+id/button37"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button36"
+          android:layout_alignLeft="@+id/button34"
+          android:background="@drawable/botao_pause_dvd" />
+
+      <Button
+          android:id="@+id/button38"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/button35"
+          android:background="@drawable/botao_prog_dvd" />
+
+      <Button
+          android:id="@+id/button39"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button38"
+          android:layout_alignLeft="@+id/button36"
+          android:background="@drawable/botao_rec_dvd" />
+
+      <Button
+          android:id="@+id/button40"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/button39"
+          android:layout_toRightOf="@+id/button39"
+          android:background="@drawable/botao_stop_dvd" />
+
+      <Button
+          android:id="@+id/button41"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/button28"
+          android:layout_alignTop="@+id/button33"
+          android:background="@drawable/botao_volume_mais_dvd" />
+
+      <Button
+          android:id="@+id/button42"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/button41"
+          android:layout_toRightOf="@+id/button17"
+          android:background="@drawable/botao_volume_menos_dvd" />
+
+      <Button
+          android:id="@+id/button44"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button43"
+          android:layout_alignBottom="@+id/button43"
+          android:layout_toRightOf="@+id/button26"
+          android:background="@drawable/botao_stitle_dvd" />
+
+      <Button
+          android:id="@+id/button45"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/button44"
+          android:layout_alignBottom="@+id/button44"
+          android:layout_alignLeft="@+id/button17"
+          android:background="@drawable/botao_clear_dvd" />
+
+      <Button
+          android:id="@+id/button43"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/button38"
+          android:layout_marginTop="16dp"
+          android:background="@drawable/botao_repeat_dvd" />
+
+</RelativeLayout>
+</ScrollView>

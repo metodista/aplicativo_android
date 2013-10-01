@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Controle remoto</string>
+	<string name="alert_dialog_no_bt">Bluetooth não está ativado. Aplicação será fechada.</string>
+	<string name="alert_dialog_yes">Sim</string>
+	<string name="alert_dialog_no">Não</string>
+	<string name="alert_dialog_warning_title">Alerta</string>
+	<string name="alert_dialog_ok">Ok</string>
+	<string name="alert_dialog_turn_on_bt">Essa aplicação precisa da ativação Bluetooth. Deseja ativar?</string>
+    <string name="title_connecting">Conectando...</string>
+    <string name="title_connected_to">Conectado: </string>
+    <string name="title_not_connected">Não conectado</string>
+    <string name="scanning">Procurando...</string>
+    <string name="button_scanning">Procurar</string>
+    <string name="select_device">Selecione um dispositivo</string>
+    <string name="none_paired">Não há dispositivos pareados</string>
+    <string name="none_found">Nenhum dispositivo encontrado</string>
+    <string name="title_paired_devices">Dispositivos pareados</string>
+    <string name="title_other_devices">Outros dispositivos disponíveis </string>
+    <string name="button_scan">Procurar</string>
+    
+    <string name="connect">Dispositivos pareados</string>
+	<string name="newconnect">Procurar Dispositivos</string>
+    <string name="disconnect">Desconectar dispositivo</string>
+
+   <string name="using_control_dvd">DVD</string>
+   <string name="using_control_tv">TV</string>
+   
+</resources>

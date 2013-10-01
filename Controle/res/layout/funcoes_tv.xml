@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="994dp"
+        >
+
+        <Button
+            android:id="@+id/buttonTv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_tv"
+             />
+
+        <Button
+            android:id="@+id/buttonTv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonTv3"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/botao_input_tv"
+             />
+
+        <Button
+            android:id="@+id/buttonTv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonTv2"
+            android:background="@drawable/botao_mts_tv" />
+
+        <Button
+            android:id="@+id/buttonTv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonTv4"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/buttonTv4"
+            android:background="@drawable/botao_aprog_tv" />
+
+        <Button
+            android:id="@+id/buttonTv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonTv5"
+            android:layout_marginRight="17dp"
+            android:layout_toLeftOf="@+id/buttonTv1"
+            android:background="@drawable/botao_memory_tv" />
+
+        <Button
+            android:id="@+id/buttonTv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonTv6"
+            android:layout_toRightOf="@+id/buttonTv6"
+            android:background="@drawable/botao_caption_tv" />
+
+        <Button
+            android:id="@+id/buttonTv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/botao_power_tv" 
+            />
+
+        <Button
+            android:id="@+id/buttonTv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv8"
+            android:layout_below="@+id/buttonTv8"
+            android:background="@drawable/botao_quatro_tv" 
+            />
+
+        <Button
+            android:id="@+id/buttonTv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonTv11"
+            android:layout_alignLeft="@+id/buttonTv3"
+            android:background="@drawable/botao_dois_tv" />
+
+        <Button
+            android:id="@+id/buttonTv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonTv11"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="21dp"
+            android:background="@drawable/botao_tres_tv" />
+
+        <Button
+            android:id="@+id/buttonTv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv9"
+            android:layout_below="@+id/buttonTv9"
+            android:background="@drawable/botao_cinco_tv" />
+
+        <Button
+            android:id="@+id/buttonTv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonTv12"
+            android:layout_alignBottom="@+id/buttonTv12"
+            android:layout_alignLeft="@+id/buttonTv10"
+            android:background="@drawable/botao_seis_tv" />
+
+        <Button
+            android:id="@+id/buttonTv15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv12"
+            android:layout_below="@+id/buttonTv12"
+            android:background="@drawable/botao_oito_tv" />
+
+        <Button
+            android:id="@+id/buttonTv18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv15"
+            android:layout_below="@+id/buttonTv15"
+            android:background="@drawable/botao_zero_tv" />
+
+        <Button
+            android:id="@+id/buttonTv17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonTv19"
+            android:layout_alignBottom="@+id/buttonTv19"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/botao_mute_tv" />
+
+        <Button
+            android:id="@+id/buttonTv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv11"
+            android:layout_below="@+id/buttonTv11"
+            android:background="@drawable/botao_sete_tv" />
+
+        <Button
+            android:id="@+id/buttonTv16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonTv18"
+            android:layout_alignLeft="@+id/buttonTv13"
+            android:background="@drawable/botao_nove_tv" />
+
+        <Button
+            android:id="@+id/buttonTv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv17"
+            android:layout_below="@+id/buttonTv4"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/botao_um_tv" />
+
+        <Button
+            android:id="@+id/buttonTv19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv16"
+            android:layout_alignTop="@+id/buttonTv18"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/botao_fcr_tv" />
+
+        <Button
+            android:id="@+id/buttonTv20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv5"
+            android:layout_below="@+id/buttonTv17"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/botao_canal_mais_tv" />
+
+        <Button
+            android:id="@+id/buttonTv21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonTv17"
+            android:layout_below="@+id/buttonTv20"
+            android:background="@drawable/botao_volume_menos_tv" />
+
+        <Button
+            android:id="@+id/buttonTv22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonTv20"
+            android:layout_toRightOf="@+id/buttonTv20"
+            android:background="@drawable/botao_volume_mais_tv" />
+
+        <Button
+            android:id="@+id/buttonTv24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonTv23"
+            android:layout_toRightOf="@+id/buttonTv21"
+            android:background="@drawable/botao_enter_tv" />
+
+        <Button
+            android:id="@+id/buttonTv25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonTv23"
+            android:layout_marginTop="26dp"
+            android:layout_toLeftOf="@+id/buttonTv20"
+            android:background="@drawable/botao_menu_tv" />
+
+        <Button
+            android:id="@+id/buttonTv26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonTv25"
+            android:layout_alignBottom="@+id/buttonTv25"
+            android:layout_alignLeft="@+id/buttonTv18"
+            android:background="@drawable/botao_review_tv" />
+
+        <Button
+            android:id="@+id/buttonTv27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonTv26"
+            android:layout_alignBottom="@+id/buttonTv26"
+            android:layout_alignLeft="@+id/buttonTv19"
+            android:background="@drawable/botao_sleep_tv" />
+
+        <Button
+            android:id="@+id/buttonTv28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonTv25"
+            android:layout_toLeftOf="@+id/buttonTv20"
+            android:background="@drawable/botao_apc_tv" />
+
+        <Button
+            android:id="@+id/buttonTv29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonTv28"
+            android:layout_alignLeft="@+id/buttonTv26"
+            android:background="@drawable/botao_dasp_tv" />
+
+        <Button
+            android:id="@+id/buttonTv30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonTv29"
+            android:layout_alignLeft="@+id/buttonTv27"
+            android:background="@drawable/botao_arc_tv" />
+   
+
+        <Button
+            android:id="@+id/buttonTv23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonTv21"
+            android:layout_toLeftOf="@+id/buttonTv22"
+            android:background="@drawable/botao_canal_menos_tv" />
+    </RelativeLayout>
+
+</ScrollView>
