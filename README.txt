@@ -1,1 +1,2 @@
-Teste
+Projeto para controlar a TV e o Home Theater da LG atráves do aplicativo Android que envia os comandos para a placa do Arduino conectado pelo modulo Bluetooth.
+Faça o download da pasta Controle para visualizar o projeto do Eclipse com o código do aplicativo.
